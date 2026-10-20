@@ -1,0 +1,5 @@
+# Vídeo de exemplo é de terceiro (Instagram @buffet.art). Repositório público: não publicar até o Gabriel confirmar.
+video/
+node_modules/
+.env
+.DS_Store
