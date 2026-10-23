@@ -211,6 +211,7 @@ dialog.lightbox::backdrop{background:rgba(10,6,6,.94)}
 body.tem-cta-fixo{padding-bottom:0}
 
 /* ===== Janela "Consultar data" ===== */
+dialog.ui-dialog{margin:auto}
 html.ui-lock{overflow:hidden}
 dialog.reserva-janela{position:fixed;inset:auto 0 0 0;margin:0;width:100%;max-width:none;max-height:94dvh;border:0;padding:0;border-radius:28px 28px 0 0;background:var(--creme);color:var(--tinta-creme);overflow:auto;overscroll-behavior:contain;box-shadow:0 -30px 80px rgba(0,0,0,.5)}
 dialog.reserva-janela::backdrop{background:rgba(10,6,6,.7);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
@@ -267,10 +268,11 @@ dialog.reserva-janela[open]{animation:sobe .45s cubic-bezier(.22,1,.36,1)}
 /* campos de contato */
 .rj .campo-txt{display:grid;gap:8px}
 .rj .campo-txt label{font:600 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:#6a5a54}
-.rj input[type=text],.rj input[type=tel]{width:100%;min-height:54px;padding:0 18px;border-radius:16px;border:1px solid rgba(30,22,23,.25);background:#fff;color:var(--tinta-creme);font:400 17px/1 var(--sans);-webkit-appearance:none;appearance:none}
-.rj input[type=text]:focus,.rj input[type=tel]:focus{outline:none;border-color:var(--cortina);box-shadow:0 0 0 4px rgba(181,48,58,.18)}
-.rj input[aria-invalid=true]{border-color:#b00020}
-.rj input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #fff inset;-webkit-text-fill-color:var(--tinta-creme)}
+dialog.reserva-janela .rj .campo-txt input[type=text],dialog.reserva-janela .rj .campo-txt input[type=tel]{width:100%;min-height:54px;padding:0 18px;border-radius:16px;border:1px solid rgba(30,22,23,.25);background:#fff;color:var(--tinta-creme);caret-color:var(--cortina);font:400 17px/1 var(--sans);-webkit-appearance:none;appearance:none}
+dialog.reserva-janela .rj .campo-txt input::placeholder{color:#8a7a74;opacity:1}
+dialog.reserva-janela .rj .campo-txt input[type=text]:focus,dialog.reserva-janela .rj .campo-txt input[type=tel]:focus{outline:none;border-color:var(--cortina);box-shadow:0 0 0 4px rgba(181,48,58,.18)}
+dialog.reserva-janela .rj .campo-txt input[aria-invalid=true]{border-color:#b00020}
+dialog.reserva-janela .rj input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #fff inset;-webkit-text-fill-color:var(--tinta-creme)}
 .rj .erro{min-height:0;font-size:13px;color:#a30f27}
 .rj .erro:empty{display:none}
 .aceite{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:#5b4c47}

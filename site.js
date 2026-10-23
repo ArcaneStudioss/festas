@@ -154,6 +154,7 @@
         : n.length > 2 ? n.replace(/^(\d{2})(\d{0,5}).*/, '($1) $2') : n;
       if (campoZap.getAttribute('aria-invalid') === 'true') erro('zap', '');
     });
+    $('input[name=aceite]', jan).addEventListener('change', () => erro('aceite', ''));
     campoNome.addEventListener('input', () => { if (campoNome.getAttribute('aria-invalid') === 'true') erro('nome', ''); });
 
     /* resumo no convite da página */
