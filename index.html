@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#120d0d">
+  <meta name="ga4-id" content="">
+  <title>Casa de eventos e festas · demonstração Arcane Studios</title>
+  <meta name="description" content="Demonstração de site para casa de eventos: salão, buffet, decoração e DJ num lugar só. Peça a sua data em menos de um minuto.">
+  <link rel="canonical" href="https://demo-eventos.arcanestudios.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="A noite que vocês vão contar por anos · demonstração">
+  <meta property="og:description" content="Salão, buffet, decoração e DJ num lugar só. Demonstração de site para casas de eventos, por Arcane Studios.">
+  <meta property="og:url" content="https://demo-eventos.arcanestudios.io/">
+  <meta property="og:image" content="https://demo-eventos.arcanestudios.io/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="/assets/img/poster-salao.jpg" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/bodoni-moda-normal-400.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/fonts/fonts.css?v=20261023a">
+  <link rel="stylesheet" href="/arcane-ui.css?v=20261023a">
+  <link rel="stylesheet" href="/arcane-motion.css?v=20261023a">
+  <link rel="stylesheet" href="/arcane-conversao.css?v=20261023a">
+  <link rel="stylesheet" href="/styles.css?v=20261023a">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"Casa de eventos (exemplo)","description":"Demonstração de site: salão, buffet, decoração e DJ para casamentos, 15 anos, formaturas e eventos corporativos.","url":"https://demo-eventos.arcanestudios.io/","telephone":"+55-00-00000-0000","image":"https://demo-eventos.arcanestudios.io/og-image.jpg","address":{"@type":"PostalAddress","streetAddress":"Rua de exemplo, 000","addressLocality":"Cidade de exemplo","addressRegion":"RS","addressCountry":"BR"},"openingHours":"Mo-Sa 09:00-18:00","priceRange":"$$"}
+  </script>
+</head>
+<body class="tem-cta-fixo">
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="marca-grupo">
+    <a href="/" class="marca" data-casa>[Nome da casa]</a>
+    <span class="demo-tag" aria-label="Demonstração">Demo<span class="mais">nstração</span></span>
+  </div>
+  <button class="menu-btn" type="button" aria-label="Abrir menu" aria-haspopup="dialog" data-abrir-menu><span></span><span></span></button>
+  <nav aria-label="Principal">
+    <a href="#roteiro">A noite</a><a href="#espaco">Espaço</a><a href="#galeria">Galeria</a><a href="#faq">Dúvidas</a>
+    <a href="#reserva" class="btn btn-cheio" data-abrir-reserva data-keep-casa>Consultar data</a>
+  </nav>
+</header>
+
+<dialog class="menu-painel" aria-label="Menu">
+  <div class="menu-painel__in">
+    <div class="menu-painel__topo">
+      <span class="marca" data-casa>[Nome da casa]</span>
+      <button class="fechar" type="button" aria-label="Fechar menu" data-fechar-menu><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></button>
+    </div>
+    <ul>
+      <li><a href="#roteiro">A noite</a></li>
+      <li><a href="#espaco">O espaço</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#faq">Dúvidas</a></li>
+    </ul>
+    <a class="btn btn-cheio" href="#reserva" data-abrir-reserva>Consultar data</a>
+  </div>
+</dialog>
+
+<main id="conteudo">
+<section class="heroi" aria-label="Apresentação">
+  <video autoplay muted loop playsinline preload="auto" poster="/assets/img/poster-salao.jpg" aria-hidden="true" tabindex="-1">
+    <source src="/assets/video/salao.mp4" type="video/mp4">
+  </video>
+  <div class="wrap">
+    <h1 data-reveal>A noite que vocês vão <em>contar por anos.</em></h1>
+    <div class="texto-lado" data-reveal style="--i:1">
+      <p>Salão, buffet, decoração e DJ num lugar só. Vocês recebem, a gente cuida do resto.</p>
+      <div class="acoes">
+        <a href="#reserva" class="btn btn-cheio" data-abrir-reserva>Consultar data</a>
+        <a href="#roteiro" class="btn btn-linha">Conhecer o espaço</a>
+      </div>
+    </div>
+  </div>
+  <button class="pausa" type="button" aria-label="Pausar vídeo" aria-pressed="false" data-pausa>
+    <span class="i-pausa"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z"/></svg></span><span class="i-play"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.4,114.49,88.32,26.35a16,16,0,0,0-16.2-.3A15.86,15.86,0,0,0,64,39.87V216.13A15.94,15.94,0,0,0,80,232a16.07,16.07,0,0,0,8.36-2.35L232.4,141.51a15.81,15.81,0,0,0,0-27ZM80,215.94V40l143.83,88Z"/></svg></span>
+  </button>
+</section>
+
+<section class="roteiro" id="roteiro" aria-labelledby="t-roteiro">
+  <div class="wrap">
+    <div class="roteiro-col">
+      <div class="roteiro-intro" data-reveal>
+        <span class="rotulo">O roteiro da noite</span>
+        <h2 id="t-roteiro">Quatro cuidados. <em>Uma noite inteira.</em></h2>
+        <p>Do primeiro convidado ao último brinde, tudo acontece no mesmo lugar, com a mesma equipe.</p>
+      </div>
+      <ol class="relogio" aria-hidden="true">
+        <li class="agora" data-rel="0"><span>19h</span>O salão</li>
+        <li data-rel="1"><span>20h30</span>A mesa</li>
+        <li data-rel="2"><span>Noite toda</span>O cenário</li>
+        <li data-rel="3"><span>23h</span>A pista</li>
+      </ol>
+    </div>
+    <div>
+      <article class="ato" id="espaco" data-ato="0">
+        <div class="hora rotulo" data-reveal>19h · Chegada</div>
+        <h3 data-reveal><small>Espaço</small>O salão</h3>
+        <div class="fotos" data-reveal>
+          <img src="/assets/img/salao-tapete.webp" width="1200" height="800" alt="Salão com lustres de cristal e tapete vermelho no corredor central" loading="lazy" decoding="async">
+          <img src="/assets/img/salao-vertical.webp" width="760" height="1140" alt="Vista do salão decorado com lustres e poltronas" loading="lazy" decoding="async">
+        </div>
+        <div class="ato-texto" data-reveal>
+          <p>Salão climatizado, lustres de cristal e luz cênica que muda de cor junto com a festa.</p>
+          <ul><li>Capacidade<b>Até 300 convidados</b></li><li>Lounge para fotos<b>Incluso</b></li><li>Estacionamento<b>Para 80 carros</b></li></ul>
+        </div>
+      </article>
+      <article class="ato" data-ato="1">
+        <div class="hora rotulo" data-reveal>20h30 · Jantar</div>
+        <h3 data-reveal><small>Alimentação</small>A mesa</h3>
+        <div class="fotos" data-reveal>
+          <img src="/assets/img/mesa-buffet.webp" width="1200" height="800" alt="Mesa de buffet com tábuas de frios, frutas e pães" loading="lazy" decoding="async">
+          <img src="/assets/img/mesa-sobremesa.webp" width="760" height="1351" alt="Mesa de sobremesas com bolos e velas" loading="lazy" decoding="async">
+        </div>
+        <div class="ato-texto" data-reveal>
+          <p>Buffet servido quente, com cardápio montado junto com vocês na degustação.</p>
+          <ul><li>Degustação<b>Antes de fechar</b></li><li>Opção vegetariana<b>Sob pedido</b></li><li>Equipe de salão<b>Inclusa</b></li></ul>
+        </div>
+      </article>
+      <article class="ato" data-ato="2">
+        <div class="hora rotulo" data-reveal>Toda a noite · Ambiente</div>
+        <h3 data-reveal><small>Decoração</small>O cenário</h3>
+        <div class="fotos" data-reveal>
+          <img src="/assets/img/cenario-rosas.webp" width="1200" height="800" alt="Mesa posta com rosas vermelhas, velas e taças" loading="lazy" decoding="async">
+          <img src="/assets/img/cenario-velas.webp" width="1200" height="800" alt="Mesa longa iluminada por velas em salão decorado" loading="lazy" decoding="async">
+        </div>
+        <div class="ato-texto" data-reveal>
+          <p>Toalhas, velas, arranjos e painel de fotos no tema de vocês, do convite ao último brinde.</p>
+          <ul><li>Mesa posta<b>Completa</b></li><li>Painel de fotos<b>Incluso</b></li><li>Paleta de cores<b>Sob medida</b></li></ul>
+        </div>
+      </article>
+      <article class="ato" data-ato="3">
+        <div class="hora rotulo" data-reveal>23h · Pista aberta</div>
+        <h3 data-reveal><small>DJ e som</small>A pista</h3>
+        <div class="fotos" data-reveal>
+          <img src="/assets/img/pista-danca.webp" width="1200" height="800" alt="DJ com convidados dançando na pista iluminada" loading="lazy" decoding="async">
+          <img src="/assets/img/pista-rosa.webp" width="760" height="1140" alt="Mãos de um DJ na mesa de som sob luz rosa" loading="lazy" decoding="async">
+        </div>
+        <div class="ato-texto" data-reveal>
+          <p>DJ com som e luz de pista, que lê o salão e guarda a música certa para a hora certa.</p>
+          <ul><li>Som e luz de pista<b>Inclusos</b></li><li>Playlist<b>Combinada antes</b></li><li>Banda ao vivo<b>Opcional</b></li></ul>
+        </div>
+      </article>
+      <p class="nota">Horários e números são um exemplo de roteiro. Cada noite segue o ritmo de vocês.</p>
+    </div>
+  </div>
+</section>
+
+<section class="noites" aria-labelledby="t-noites">
+  <div class="wrap">
+    <h2 id="t-noites" data-reveal>Para qual <em>noite</em> é?</h2>
+    <ul class="lista-noites" data-stagger>
+      <li><a href="#reserva" data-abrir-reserva data-tipo="Casamento"><span class="nome">Casamentos</span><img class="thumb" src="/assets/img/cenario-rosas.webp" width="1200" height="800" alt="" loading="lazy" decoding="async"><span class="seta">Orçar <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></span></a></li>
+      <li><a href="#reserva" data-abrir-reserva data-tipo="15 anos"><span class="nome">15 anos</span><img class="thumb" src="/assets/img/pista-rosa.webp" width="760" height="1140" alt="" loading="lazy" decoding="async"><span class="seta">Orçar <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></span></a></li>
+      <li><a href="#reserva" data-abrir-reserva data-tipo="Formatura"><span class="nome">Formaturas</span><img class="thumb" src="/assets/img/salao-amplo.webp" width="1200" height="800" alt="" loading="lazy" decoding="async"><span class="seta">Orçar <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></span></a></li>
+      <li><a href="#reserva" data-abrir-reserva data-tipo="Corporativo"><span class="nome">Corporativos</span><img class="thumb" src="/assets/img/extra-claro.webp" width="1000" height="667" alt="" loading="lazy" decoding="async"><span class="seta">Orçar <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></span></a></li>
+      <li><a href="#reserva" data-abrir-reserva data-tipo="Aniversário ou bodas"><span class="nome">Aniversários e bodas</span><img class="thumb" src="/assets/img/mesa-sobremesa.webp" width="760" height="1351" alt="" loading="lazy" decoding="async"><span class="seta">Orçar <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="galeria" id="galeria" aria-labelledby="t-galeria">
+  <div class="wrap">
+    <div class="galeria-cab" data-reveal>
+      <h2 id="t-galeria">A casa <em>acesa</em></h2>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Ver no Instagram</a>
+    </div>
+    <div class="mosaico" data-reveal>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/salao-lustres.webp" width="1200" height="800" alt="Salão com lustres e palco iluminado em roxo e dourado" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/mesa-quente.webp" width="1200" height="800" alt="Buffet quente com réchauds e arranjos de flores" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/cenario-lustres.webp" width="1200" height="800" alt="Salão decorado com lustres e mesas postas" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/pista-fumaca.webp" width="1200" height="800" alt="DJ trabalhando entre fumaça e luzes verdes" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/extra-dourado.webp" width="1000" height="666" alt="Salão amplo com iluminação dourada" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/mesa-entradas.webp" width="1200" height="801" alt="Entradas servidas em taças sobre mesa de madeira" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/extra-buffet.webp" width="1000" height="666" alt="Mesa de buffet com flores e frutas" loading="lazy" decoding="async"></button>
+      <button class="gal-item" type="button" data-lb><img src="/assets/img/pista-maos.webp" width="1200" height="675" alt="Mãos de um DJ na mesa de som em luz alaranjada" loading="lazy" decoding="async"></button>
+    </div>
+  </div>
+</section>
+
+<section class="reserva" id="reserva" aria-labelledby="t-reserva">
+  <div class="wrap">
+    <div class="convite" data-reveal>
+      <div class="convite-in">
+        <span class="rsvp">R.S.V.P.</span>
+        <h2 id="t-reserva">A sua data ainda está <em>livre?</em></h2>
+        <p>Conte o dia e o tamanho da festa. Respondemos em até 2 horas, em horário comercial.</p>
+        <p class="promessa">Resposta em até 2 horas (exemplo)</p>
+        <div class="campos">
+          <button class="campo" type="button" data-abrir-reserva data-passo="1"><span><span class="k">Data</span><span class="v">Escolher o dia</span></span><span class="acao">Escolher</span></button>
+          <button class="campo" type="button" data-abrir-reserva data-passo="2"><span><span class="k">Convidados</span><span class="v">Quantas pessoas?</span></span><span class="acao">Informar</span></button>
+        </div>
+        <button class="btn btn-cheio" type="button" data-abrir-reserva>Verificar disponibilidade</button>
+        <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20consultar%20uma%20data." class="zap-link" target="_blank" rel="noopener noreferrer">ou <u>chame no WhatsApp</u></a>
+      </div>
+    </div>
+    <div data-reveal>
+      <h2 class="passos-tit">Depois do sim</h2>
+      <ol class="passos">
+        <li><b>Visita ao espaço</b><span>Vocês conhecem o salão com a luz da noite.</span></li>
+        <li><b>Degustação</b><span>Provam o cardápio e ajustam o que quiserem.</span></li>
+        <li><b>Proposta por escrito</b><span>Tudo que está incluso, sem letra miúda.</span></li>
+        <li><b>A noite</b><span>Vocês recebem. A equipe cuida do resto.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="wrap gente" aria-label="Quem atende, festas realizadas e avaliações">
+  <div class="reservado largo" id="equipe" data-reveal>
+    <div class="pessoa">
+      <div class="foto">Foto real da equipe</div>
+      <div><span class="rotulo">Quem vai te atender</span><h3>Nome da coordenadora, <em>coordenação de eventos</em></h3><p>Acompanha a festa da primeira visita até a última música. Na demonstração, este espaço fica reservado para a equipe real da casa.</p></div>
+    </div>
+  </div>
+  <div class="reservado" id="cases" data-reveal>
+    <span class="rotulo">Festas que passaram por aqui</span>
+    <h3>Cases reais entram aqui</h3>
+    <p>Fotos e relatos de festas realizadas, sempre com autorização dos anfitriões. Na demonstração, o espaço fica reservado.</p>
+  </div>
+  <div class="reservado" id="avaliacoes" data-reveal>
+    <div class="estrelas" aria-hidden="true">★★★★★</div>
+    <h3>Avaliações reais do Google</h3>
+    <p>Aqui aparecem avaliações verdadeiras, com nome e data, e o link para o perfil da casa. Na demonstração, o espaço fica reservado.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq" aria-labelledby="t-faq">
+  <div class="wrap">
+    <h2 id="t-faq" data-reveal>Perguntas <em>de quem já reservou</em></h2>
+    <div data-reveal>
+      <details open><summary>Com quanto tempo de antecedência devo reservar?</summary><p>Casamentos e formaturas costumam fechar de 6 a 12 meses antes. Datas de sexta e domingo têm mais folga. Na dúvida, consulte a data: é rápido e sem compromisso.</p></details>
+      <details><summary>Posso trazer meu próprio DJ ou decorador?</summary><p>Exemplo de resposta: a casa tem equipe própria, mas aceita profissionais de fora mediante alinhamento prévio. Cada casa define a sua regra.</p></details>
+      <details><summary>O cardápio pode ser personalizado?</summary><p>Sim. Na degustação vocês ajustam pratos, porções e restrições alimentares, e o cardápio final vai por escrito na proposta.</p></details>
+      <details><summary>Quantas pessoas o salão comporta?</summary><p>Exemplo: até 300 convidados sentados. Cada casa informa a capacidade real e os formatos possíveis, como jantar, coquetel ou pista livre.</p></details>
+      <details><summary>Como funciona o pagamento?</summary><p>Exemplo: um sinal reserva a data e o restante é parcelado até a semana do evento. As condições reais vêm na proposta de cada casa.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="wrap local" aria-labelledby="t-local">
+  <div class="mapa-visual" role="img" aria-label="Mapa ilustrativo com a localização da casa" data-reveal>Mapa do Google entra aqui</div>
+  <div data-reveal>
+    <h2 id="t-local">Como <em>chegar</em></h2>
+    <address>Rua de exemplo, 000, bairro de exemplo<br>Cidade de exemplo, RS<br>Visitas com hora marcada, de segunda a sábado.</address>
+    <div class="acoes">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Porto+Alegre+RS" class="btn btn-cheio" target="_blank" rel="noopener noreferrer">Traçar rota</a>
+      <a href="#reserva" class="btn btn-linha" data-abrir-reserva>Agendar visita</a>
+    </div>
+  </div>
+</section>
+
+<section class="venda" aria-labelledby="t-venda" data-reveal>
+  <h2 id="t-venda">Quer um site assim para a <em>sua casa?</em></h2>
+  <p>Esta é uma demonstração da Arcane Studios. Textos, números e fotos são exemplos. Seu site leva o seu nome, as suas fotos e a sua data.</p>
+  <a class="btn btn-cheio" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vi%20a%20demonstra%C3%A7%C3%A3o%20e%20quero%20um%20site%20assim." target="_blank" rel="noopener noreferrer">Quero um site assim</a>
+</section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="cols">
+      <div><span class="marca" data-casa>[Nome da casa]</span><p style="max-width:32ch">Salão, buffet, decoração e DJ para noites que ficam na memória.</p></div>
+      <ul><li><a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">WhatsApp</a></li><li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li></ul>
+      <ul><li><a href="/politica-de-privacidade/" data-keep-casa>Política de privacidade</a></li></ul>
+    </div>
+    <div class="fim"><span>© 2026 <span data-casa>[Nome da casa]</span> · demonstração</span><span>Fotos e vídeo: Pexels (licença livre)</span></div>
+  </div>
+</footer>
+
+<div class="cta-fixo" role="region" aria-label="Ações rápidas">
+  <a class="btn btn-cheio" href="#reserva" data-abrir-reserva>Consultar data</a>
+  <a class="btn btn-redondo" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Quero%20consultar%20uma%20data." target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/></svg></a>
+</div>
+
+<dialog class="reserva-janela" aria-labelledby="rj-titulo" data-janela>
+  <form class="rj" novalidate>
+    <div class="rj__topo">
+      <div class="rj__passos" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+      <button class="fechar" type="button" aria-label="Fechar" data-rj-fechar><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></button>
+    </div>
+
+    <section data-passo="1">
+      <h2 id="rj-titulo" tabindex="-1">Qual é o <em>dia</em> da festa?</h2>
+      <p class="dica">Toque na data. Se ainda não definiram, escolham a mais provável.</p>
+      <div class="cal" data-cal>
+        <div class="cal__cab">
+          <span class="cal__mes" aria-live="polite" data-cal-mes></span>
+          <div class="cal__nav"><button type="button" aria-label="Mês anterior" data-cal-ant><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></svg></button><button type="button" aria-label="Próximo mês" data-cal-prox><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></svg></button></div>
+        </div>
+        <div class="cal__sem" aria-hidden="true"><span>D</span><span>S</span><span>T</span><span>Q</span><span>Q</span><span>S</span><span>S</span></div>
+        <div class="cal__dias" data-cal-dias></div>
+        <p class="cal__sel" aria-live="polite" data-cal-sel></p>
+        <p class="erro" role="alert" data-erro="data"></p>
+      </div>
+    </section>
+
+    <section data-passo="2" hidden>
+      <h2 tabindex="-1">Quantos <em>convidados</em> e que festa?</h2>
+      <div class="contador">
+        <button type="button" aria-label="Menos 10 convidados" data-conv="-10"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128Z"/></svg></button>
+        <div><output data-conv-valor aria-live="polite">100</output><small>convidados</small></div>
+        <button type="button" aria-label="Mais 10 convidados" data-conv="10"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></button>
+      </div>
+      <fieldset class="tipos" style="margin-top:18px">
+        <legend>Tipo de festa</legend>
+        <label><input type="radio" name="tipo" value="Casamento"><span>Casamento</span></label>
+        <label><input type="radio" name="tipo" value="15 anos"><span>15 anos</span></label>
+        <label><input type="radio" name="tipo" value="Formatura"><span>Formatura</span></label>
+        <label><input type="radio" name="tipo" value="Corporativo"><span>Corporativo</span></label>
+        <label><input type="radio" name="tipo" value="Aniversário ou bodas"><span>Aniversário ou bodas</span></label>
+        <label><input type="radio" name="tipo" value="Outro"><span>Outro</span></label>
+      </fieldset>
+      <p class="erro" role="alert" data-erro="tipo"></p>
+    </section>
+
+    <section data-passo="3" hidden>
+      <h2 tabindex="-1">Como falamos <em>com vocês?</em></h2>
+      <div class="campo-txt" style="margin-top:6px">
+        <label for="rj-nome">Seu nome</label>
+        <input id="rj-nome" name="nome" type="text" autocomplete="name" maxlength="60" aria-describedby="rj-nome-erro">
+        <p class="erro" id="rj-nome-erro" data-erro="nome"></p>
+      </div>
+      <div class="campo-txt" style="margin-top:12px">
+        <label for="rj-zap">WhatsApp com DDD</label>
+        <input id="rj-zap" name="zap" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="16" placeholder="(51) 99999-9999" aria-describedby="rj-zap-erro">
+        <p class="erro" id="rj-zap-erro" data-erro="zap"></p>
+      </div>
+      <label class="aceite" style="margin-top:14px"><input type="checkbox" name="aceite"><span>Li e aceito a <a href="/politica-de-privacidade/" target="_blank" rel="noopener noreferrer">política de privacidade</a>.</span></label>
+      <p class="erro" role="alert" data-erro="aceite"></p>
+      <p class="aviso-demo">Isto é uma demonstração: nada será enviado a ninguém.</p>
+    </section>
+
+    <div class="rj__rodape">
+      <button class="btn btn-linha" type="button" data-rj-voltar hidden>Voltar</button>
+      <button class="btn btn-cheio" type="submit" data-rj-avancar>Continuar</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog class="lightbox" aria-label="Foto ampliada" data-lightbox>
+  <div class="lightbox__in">
+    <div class="lightbox__topo"><span data-lb-cont></span><button class="fechar" type="button" aria-label="Fechar foto" data-lb-fechar><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg></button></div>
+    <figure><img alt="" data-lb-img></figure>
+    <div class="lightbox__nav"><button class="fechar" type="button" aria-label="Foto anterior" data-lb-ant><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"/></svg></button><button class="fechar" type="button" aria-label="Próxima foto" data-lb-prox><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"/></svg></button></div>
+  </div>
+</dialog>
+
+<script src="/arcane-ui.js?v=20261023a"></script>
+<script src="/site.js?v=20261023a"></script>
+<script src="/arcane-analytics.js?v=20261023a"></script>
+</body>
+</html>

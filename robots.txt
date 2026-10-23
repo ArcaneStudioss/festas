@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://demo-eventos.arcanestudios.io/sitemap.xml

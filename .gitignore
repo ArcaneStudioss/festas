@@ -1,0 +1,9 @@
+.DS_Store
+*.zip
+node_modules/
+dados/
+.env
+.env.*
+*.pem
+*.key
+_midia/
